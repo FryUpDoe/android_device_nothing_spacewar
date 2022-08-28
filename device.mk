@@ -33,7 +33,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Boot control
 PRODUCT_PACKAGES += \
