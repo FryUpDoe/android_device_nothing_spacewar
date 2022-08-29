@@ -84,6 +84,11 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_BOOTIMG_HEADER_VERSION := 3
+BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/nothing/spacewar
+TARGET_KERNEL_CONFIG := gki_defconfig
 
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
@@ -101,15 +106,6 @@ BOARD_KERNEL_CMDLINE := \
     iptable_raw.raw_before_defrag=1 \
     ip6table_raw.raw_before_defrag=1 \
     androidboot.selinux=permissive
-
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/nothing/spacewar
-TARGET_KERNEL_CONFIG := gki_defconfig
-
-TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
