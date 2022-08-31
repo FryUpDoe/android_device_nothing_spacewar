@@ -35,6 +35,10 @@ TARGET_HAS_GENERIC_KERNEL_HEADERS := true
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Authsecret
+PRODUCT_PACKAGES += \
+    android.hardware.authsecret@1.0.vendor
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
