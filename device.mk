@@ -60,6 +60,36 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+    init.qti.display_boot.rc \
+    init.qti.display_boot.sh \
+    gralloc.default \
+    libdisplayconfig.qti \
+    libdisplayconfig.system.qti \
+    libqdMetaData \
+    libqdMetaData.system \
+    libsdmcore \
+    libsdmutils \
+    libtinyxml \
+    libvulkan \
+    memtrack.default \
+    vendor.display.config@1.15 \
+    vendor.display.config@1.15.vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.mapper@1.0.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor
+
 # Dynamic partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
