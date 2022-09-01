@@ -27,5 +27,6 @@ The Nothing Phone (1) (codenamed "*Spacewar*") is a smartphone from Nothing. It 
 ## Copyright
  - Copyright © 2022 The **Android Open Source** Project
  - Copyright © 2022 **FryUpDoe**
+ - Copyright © 2022 **0x5ECF4ULT**
  - Copyright © 2022 The **LineageOS** Project
  
