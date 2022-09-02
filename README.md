@@ -17,7 +17,7 @@ The Nothing Phone (1) (codenamed "*Spacewar*") is a smartphone from Nothing. It 
 | Dimensions              | 159.2 x 75.8 x 8.3 mm (6.27 x 2.98 x 0.33 in)                                  |
 | Display                 | 6.55 inches, 1080 x 2400 pixels, 20:9 ratio                                    |
 | Rear Camera 1           | 50 MP, f/1.9, 24mm (wide), 1/1.56", 1.0µm, PDAF, OIS                           |
-|                         | 50 MP, f/2.2, 114˚ (ultrawide), 1/2.76", 0.64µm                                |
+| Rear Camera 2           | 50 MP, f/2.2, 114˚ (ultrawide), 1/2.76", 0.64µm                                |
 | Front Camera            | 16 MP, f/2.5, (wide), 1/3.1", 1.0µm                                            |
 | Sensors                 | Fingerprint (under display, optical), accelerometer, proximity, gyro, compass  |
 
@@ -26,7 +26,6 @@ The Nothing Phone (1) (codenamed "*Spacewar*") is a smartphone from Nothing. It 
 
 ## Copyright
  - Copyright © 2022 The **Android Open Source** Project
- - Copyright © 2022 **FryUpDoe**
- - Copyright © 2022 **0x5ECF4ULT**
- - Copyright © 2022 The **LineageOS** Project
+  - Copyright © 2022 The **LineageOS** Project
+ - Copyright © 2022 **FryUpDoe** & **0x5ECF4ULT**
  
