@@ -32,8 +32,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Support to compile recovery without msm headers
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
 
-# API
+# SHIPPING API LEVEL
 PRODUCT_SHIPPING_API_LEVEL := 31
+
+# TARGET VNDK LEVEL
+PRODUCT_TARGET_VNDK_VERSION := 31
 
 # Authsecret
 PRODUCT_PACKAGES += \
