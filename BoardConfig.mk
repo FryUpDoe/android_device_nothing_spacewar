@@ -119,6 +119,16 @@ BOARD_KERNEL_CMDLINE := \
     ip6table_raw.raw_before_defrag=1 \
     androidboot.selinux=permissive
 
+KERNEL_SD_LLVM_SUPPORT := true 
+
+ifeq ($(KERNEL_SD_LLVM_SUPPORT), true)  #Using sd-llvm compiler
+      ifeq ($(shell echo $(SDCLANG_PATH) | head -c 1),/)
+         KERNEL_LLVM_BIN := $(SDCLANG_PATH)
+      else
+         KERNEL_LLVM_BIN := $(shell pwd)/$(SDCLANG_PATH)
+      endif
+      $(warning "Using sdllvm" $(KERNEL_LLVM_BIN)/clang)
+
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
 
