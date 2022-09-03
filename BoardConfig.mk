@@ -128,6 +128,7 @@ ifeq ($(KERNEL_SD_LLVM_SUPPORT), true)  #Using sd-llvm compiler
          KERNEL_LLVM_BIN := $(shell pwd)/$(SDCLANG_PATH)
       endif
       $(warning "Using sdllvm" $(KERNEL_LLVM_BIN)/clang)
+endif
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
